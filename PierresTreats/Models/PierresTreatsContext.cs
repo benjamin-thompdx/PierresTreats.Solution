@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace PierresTreats.Models
 {
-  public class PierresTreatsContext : DbContext
+  public class PierresTreatsContext : IdentityDbContext<ApplicationUser>
   {
     public virtual DbSet<Treat> Treats { get; set; }
     public DbSet<Flavor> Flavors { get; set; }
