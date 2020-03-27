@@ -100,7 +100,7 @@ namespace PierresTreats.Controllers
 
     public ActionResult Delete(int id)
     {
-      var thisFlavor = _db.FlavorthisFlavors.FirstOrDefault(flavors => flavors.FlavorId == id);
+      var thisFlavor = _db.Flavors.FirstOrDefault(flavors => flavors.FlavorId == id);
       return View(thisFlavor);
     }
 
