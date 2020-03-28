@@ -8,6 +8,9 @@
 
 _A web application to view and manage Pierre's treats and flavors. All website visitors can view Pierre's treats and flavors, but only registered users can create, update and delete treats and flavors. A registered user must log in to the application to make updates to treat names and flavor descriptions and once all changes are made, the user can simply log out._
 
+## Preview
+![Landing Page Preview](PierresTreats/wwwroot/img/PierresTreatsPreview.gif)
+
 ## Project Specifications
 
 | Behavior | Input | Output |
