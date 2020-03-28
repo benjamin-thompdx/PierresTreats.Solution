@@ -12,13 +12,14 @@ _A web application to view and manage Pierre's treats and flavors. All website v
 
 | Behavior | Input | Output |
 |---|:---:|:---:|
-|A user should be able to log in and log out.|||
-|Only logged in users should have create, update and delete functionality|||
-|All users should be able to have read functionality|||
-|There should be a many-to-many relationship between Treats and Flavors|||
-|A user should be able to navigate to a splash page that lists all treats and flavors|||
-|Users should be able to click on an individual treat or flavor to see all the treats/flavors that belong to it|||
-||||
+|A user can type a http://localhost:5000/ into their web browser and press ENTER or click the Go button, the WebBrowser control navigates to the homepage||||
+|Once on the homepage the web application displays a welcome message with a drop-down menu in the left corner, and a Login/My Account link in the right-hand corner|||
+|A user can register as a new user or log in and log out of their existing account.|||
+|Only logged in users can create, update, and delete treats and flavors|||
+|All users who are signed into a user account can view treats and flavors|||
+|the treats and flavors a user creates can have a many-to-many relationship|||
+|A user can navigate to a splash page that lists all treats and flavors|||
+|Users can click on an individual treat or flavor to see all the treats/flavors that belong to it|||
 
 ## Setup/Installation Requirements
 
@@ -68,12 +69,8 @@ _Note For Editors:_
 * Open project's productions directory within your terminal ```$ cd PierresTreats.Solution/PierresTreats```
 * Run the command ```dotnet restore```
 * Run the command ```dotnet build``` 
-  * If build is successful,run the following commands:
-    1. ```dotnet ef migrations add Initial```
-    2. ```dotnet ef database update```
-  * if build failed, make necessary updates and rerun ```dotnet restore``` followed by ```dotnet build```, and then run the following commands:
-    1. ```dotnet ef migrations add Initial```
-    2. ```dotnet ef database update```
+* If build is successful,run ```dotnet ef database update```
+  * if build failed, make necessary updates and rerun ```dotnet build``` followed by ```ddotnet ef database update```
 
 ## Known Bugs
 
