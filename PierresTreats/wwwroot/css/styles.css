@@ -60,3 +60,8 @@ i {
 .edit {
   font-style: italic;
 }
+
+.subtext {
+  color: rgb(242,187,104);
+  font-style: italic;
+}
