@@ -12,14 +12,14 @@ _A web application to view and manage Pierre's treats and flavors. All website v
 
 | Behavior | Input | Output |
 |---|:---:|:---:|
-|A user can type a http://localhost:5000/ into their web browser and press ENTER or click the Go button, the WebBrowser control navigates to the homepage||||
-|Once on the homepage the web application displays a welcome message with a drop-down menu in the left corner, and a Login/My Account link in the right-hand corner|||
-|A user can register as a new user or log in and log out of their existing account.|||
-|Only logged in users can create, update, and delete treats and flavors|||
-|All users who are signed into a user account can view treats and flavors|||
-|the treats and flavors a user creates can have a many-to-many relationship|||
-|A user can navigate to a splash page that lists all treats and flavors|||
-|Users can click on an individual treat or flavor to see all the treats/flavors that belong to it|||
+|A user can type a http://localhost:5000/ into their web browser and press ENTER or click the Go button, the WebBrowser control navigates to the homepage|Homepage (http://localhost:5000/)|Pierre's Sweet and Savory Treats|
+|Once on the homepage the web application displays a welcome message with a drop-down menu in the left corner, and a Login/My Account link in the right-hand corner|N/A|Main Menu (left), Welcome Message (center), Login/ My Account (right)|
+|A user can register as a new user or log in and log out of their existing account.|Account Homepage (http://localhost:5000/Account)|Register (http://localhost:5000/Account/Register), Log in (http://localhost:5000/Account/Login)|
+|A user can navigate to a splash page that lists all treats or flavors|(T)Treats (http://localhost:5000/Treats), (F)Flavors (http://localhost:5000/Flavors)|List of treats, List of flavors|
+|Users can click on an individual treat or flavor with the splashpage to see all the treats/flavors that belong to it|Treat: Scone (http://localhost:5000/Treats/Details/1), Flavor: Chocolate (http://localhost:5000/Flavors/Details/1)|(T)Name:Scone Flavors the treat contains:Chocolate, (F)Description:Chocolate Treats the flavor belongs to:Scone|
+|Only logged in users can create, update, and delete treats and flavors|Treat Details (http://localhost:5000/Treats/Details/1), Flavor Details (http://localhost:5000/Flavors/Details/1)|(T)Create (http://localhost:5000/Treats/Create), (T)Edit (http://localhost:5000/Treats/Edit/1), (T)Delete (http://localhost:5000/Treats/Delete/1), (F)Create (http://localhost:5000/Flavors/Create), (F)Edit (http://localhost:5000/Flavors/Edit/1), (F)Add Treat To Flavor (http://localhost:5000/Flavors/AddTreat/1), (F)Delete (http://localhost:5000/Flavors/Delete/1)|
+|All users who are signed into a user account can view treats and flavors|Email: test@mail.com, Password: test|Hello, test@mail.com!|
+|The treats and flavors a user creates can have a many-to-many relationship|N/A|A treat's flavors: "chocolate, chai, butter" and a flavor's treats: "croissants, cheesecake, cupcake"|
 
 ## Setup/Installation Requirements
 
