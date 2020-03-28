@@ -58,10 +58,11 @@ i {
 }
 
 .edit {
+  color: rgb(90, 78, 167);
   font-style: italic;
 }
 
 .subtext {
   color: rgb(242,187,104);
-  font-style: italic;
+  font-weight: bolder;
 }
