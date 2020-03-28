@@ -73,7 +73,7 @@ _Note For Editors:_
 * Run the command ```dotnet restore```
 * Run the command ```dotnet build``` 
 * If build is successful,run ```dotnet ef database update```
-  * if build failed, make necessary updates and rerun ```dotnet build``` followed by ```ddotnet ef database update```
+  * if build failed, make necessary updates and rerun ```dotnet build``` followed by ```dotnet ef database update```
 
 ## Known Bugs
 
