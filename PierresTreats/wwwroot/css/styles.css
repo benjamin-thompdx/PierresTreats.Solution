@@ -3,8 +3,8 @@ body, html {
 }
 
 body {
-  background-color: rgb(139, 76, 0);
-  background-image: linear-gradient(rgb(247, 219, 171), rgb(249, 197, 119), rgb(255, 178, 44), rgb(230, 168, 12), rgb(139, 76, 0));
+  background-color: rgb(8, 0, 63);
+  background-image: linear-gradient(rgb(8, 0, 63), rgb(8, 0, 63), rgb(8, 0, 63), rgb(167,162,175), ivory);
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: ivory;
@@ -13,24 +13,20 @@ body {
 }
 
 
-/* input {
-  background-color: black;
-  border: 3px solid black;
-  border-radius: 20px;
+input {
+  background-color: ivory;
   text-align: center;
-  color: ivory;
+  color: rgb(8, 0, 63);
   width: 35%;
   margin: 10px;
   margin-bottom: 30px;
 }
 
 .btn {
-  border: 3px solid black;
-  border-radius: 15px;
-  background-image: radial-gradient(rgb(94, 92, 92), rgb(18, 18, 155));
-  color: ivory;
+  background-color:rgb(242,187,104);
+  color: rgb(8, 0, 63);
   margin: 25px;
-  font-size: 140%;
+  font-size: 100%;
 }
 
 .btn:hover {
@@ -39,43 +35,28 @@ body {
 }
 
 select {
-  background-color: black;
+  background-color: rgb(8, 0, 63);
   margin: 15px;
 }
 
-.box {
-  background-color: rgba(255, 255, 255, 0.199);
-  margin: 50px;
-  margin-left: 150px;
-  margin-right: 150px;
-  padding: 20px;
-  color: ivory;
-  border-radius: 15px;
-}
-
 a {
-  color: darkblue;
+  color: rgb(242,187,104);
 }
 
 i {
   color: ivory;
-  margin: 25px;
-}
-
-pre {
-  background-color: transparent;
-  border: none;
-  color: gold;
 }
 
 .mdl-layout__drawer {
-  background-color: rgb(7, 121, 121);
-  color: ivory;
-  border-radius: 15px;
-  border: 5px solid black;
+  background-color: ivory;
+  color: rgb(8, 0, 63);
 }
 
 .link {
-  color: ivory;
+  color: rgb(242,187,104);
   margin-bottom: 30px;
-} */
+}
+
+.edit {
+  font-style: italic;
+}
